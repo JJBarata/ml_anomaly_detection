@@ -1,6 +1,4 @@
-# ml_anomaly_detection
-
-# KDD Cup 1999 Data (https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
+## KDD Cup 1999 Data (https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
 
 Conjunto de dados usado para a Terceira Competição Internacional de Ferramentas de Mineração de Dados e Descoberta de Conhecimento, que foi realizada em conjunto com a KDD-99, a Quinta Conferência Internacional sobre Descoberta de Conhecimento e Mineração de Dados.
 
@@ -20,7 +18,7 @@ Os ataques se enquadram em quatro categorias principais:
 
 O código está sendo desenvolvido em Python com as bibliotecas Pandas, Numpy, Matplotlib, Sklearn e outras.
 
-O modelo de classificação é o Gradient Boosting Classifier e o Linear Regression para comparar a precisão e outras métricas.
+O modelo de classificação que estou usando é o Gradient Boosting Classifier e o Linear Regression para comparar a precisão e outras métricas. Ainda está em andamento e meio desorganizado, mas conforme for evoluindo, irei organizar para ficar mais legível.
 
 Caso queira ajudar, você será bem vindo.
 
