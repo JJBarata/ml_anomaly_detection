@@ -20,7 +20,7 @@ O código está sendo desenvolvido em Python com as bibliotecas Pandas, Numpy, M
 
 Como o dataset é muito grande, você pode baixar através do link que está no titulo. 
 
-O modelo de classificação que estou usando é o Gradient Boosting Classifier e o Linear Regression para comparar a precisão e outras métricas. Ainda está em andamento e meio desorganizado, mas conforme for evoluindo, irei organizar para ficar mais legível.
+O modelo de classificação que estou usando é o Gradient Boosting Classifier. O modelo Logistic Regression servirá para comparar a precisão e outras métricas com o GBC.
 
 Caso queira ajudar, você será bem vindo.
 
