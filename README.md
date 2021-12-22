@@ -18,10 +18,12 @@ Os ataques se enquadram em quatro categorias principais:
 
 O código está sendo desenvolvido em Python com as bibliotecas Pandas, Numpy, Matplotlib, Sklearn e outras.
 
-Como o dataset é muito grande, você pode baixar através do link que está no titulo. 
+## Update:
 
-O modelo de classificação que estou usando é o Gradient Boosting Classifier. O modelo Logistic Regression servirá para comparar a precisão e outras métricas com o GBC.
+O projeto passou a usar o dataset NSL-KDD que é, segundo [1], uma versão do dataset original do KDD Cup 1999 que visa corrigir alguns problemas inerentes mencionados pelos autores. Embora não seja uma representação perfeita das redes reais existentes, devido a falta de datasets públicos para NIDS, os autores acreditam que pode ser aplicado como referência para ajudar pesquisadores.
 
-Caso queira ajudar, você será bem vindo.
+O dataset utilizado neste projeto foi o KDDTrain+.txt.
 
-Obrigado.
+Tanto os datasets como maiores informações sobre o NLS-KDD, estão no site do Canadian Institute for Cybersecurity: https://www.unb.ca/cic/datasets/nsl.html
+
+[1] - M. Tavallaee, E. Bagheri, W. Lu, and A. Ghorbani, “A Detailed Analysis of the KDD CUP 99 Data Set,” Submitted to Second IEEE Symposium on Computational Intelligence for Security and Defense Applications (CISDA), 2009.
