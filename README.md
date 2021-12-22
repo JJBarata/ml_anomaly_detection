@@ -27,3 +27,12 @@ O dataset utilizado neste projeto foi o KDDTrain+.txt.
 Tanto os datasets como maiores informações sobre o NLS-KDD, estão no site do Canadian Institute for Cybersecurity: https://www.unb.ca/cic/datasets/nsl.html
 
 [1] - M. Tavallaee, E. Bagheri, W. Lu, and A. Ghorbani, “A Detailed Analysis of the KDD CUP 99 Data Set,” Submitted to Second IEEE Symposium on Computational Intelligence for Security and Defense Applications (CISDA), 2009.
+
+## Modelos de classificação binária e multiclasse utilizados no projeto:
+
+- Gradient Boosting Classifier (GBC)
+- Linear Support Vector Machine Classifier (LSVM)
+- K-Nearest Neighbors Classifier (KNN)
+- Gaussian Naive Bayes Classifier (GNB)
+- Logistic Regression Classifier (LR)
+- Random Forest Classifier (RF)
