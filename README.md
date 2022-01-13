@@ -49,18 +49,18 @@ Tanto os datasets como maiores informações sobre o NLS-KDD, estão no site do 
 Na validação cruzada foi utilizado o K-Fold e o Stratified ShuffleSplit. As acurácias foram:
 
 Modelos avaliados:
-> GradientBoostingClassifier: Acurácia: 0.9784
-> LinearSVC: Acurácia: 0.9667
-> KNeighborsClassifier: Acurácia: 0.9857
-> GaussianNB: Acurácia: 0.8421
-> LogisticRegression: Acurácia: 0.9687
-> RandomForestClassifier: Acurácia: 0.8965
-> MLPClassifier: Acurácia: 0.9836
+- GradientBoostingClassifier: Acurácia: 0.9784
+- LinearSVC: Acurácia: 0.9667
+- KNeighborsClassifier: Acurácia: 0.9857
+- GaussianNB: Acurácia: 0.8421
+- LogisticRegression: Acurácia: 0.9687
+- RandomForestClassifier: Acurácia: 0.8965
+- MLPClassifier: Acurácia: 0.9836
 Validação cruzada dos modelos:
-> GradientBoostingClassifier: stratified shufflesplit = 0.9782, kfold = 0.9782
-> LinearSVC: stratified shufflesplit = 0.9675, kfold = 0.9675
-> KNeighborsClassifier: stratified shufflesplit = 0.9860, kfold = 0.9860
-> GaussianNB: stratified shufflesplit = 0.8439, kfold = 0.8439
-> LogisticRegression: stratified shufflesplit = 0.9696, kfold = 0.9696
-> RandomForestClassifier: stratified shufflesplit = 0.9871, kfold = 0.9871
-> MLPClassifier: stratified shufflesplit = 0.9842, kfold = 0.9841
+- GradientBoostingClassifier: stratified shufflesplit = 0.9782, kfold = 0.9782
+- LinearSVC: stratified shufflesplit = 0.9675, kfold = 0.9675
+- KNeighborsClassifier: stratified shufflesplit = 0.9860, kfold = 0.9860
+- GaussianNB: stratified shufflesplit = 0.8439, kfold = 0.8439
+- LogisticRegression: stratified shufflesplit = 0.9696, kfold = 0.9696
+- RandomForestClassifier: stratified shufflesplit = 0.9871, kfold = 0.9871
+- MLPClassifier: stratified shufflesplit = 0.9842, kfold = 0.9841
