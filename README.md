@@ -1,4 +1,4 @@
-## KDD Cup 1999 Data (https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
+### KDD Cup 1999 Data (https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
 
 Conjunto de dados usado para a Terceira Competição Internacional de Ferramentas de Mineração de Dados e Descoberta de Conhecimento, que foi realizada em conjunto com a KDD-99, a Quinta Conferência Internacional sobre Descoberta de Conhecimento e Mineração de Dados.
 
@@ -18,7 +18,7 @@ Os ataques se enquadram em quatro categorias principais:
 
 O código está sendo desenvolvido em Python com as bibliotecas Pandas, Numpy, Matplotlib, Sklearn e outras.
 
-## Update:
+### Update:
 
 O projeto passou a usar o dataset NSL-KDD que é, segundo [1], uma versão do dataset original do KDD Cup 1999 que visa corrigir alguns problemas inerentes mencionados pelos autores. Embora não seja uma representação perfeita das redes reais existentes, devido a falta de datasets públicos para NIDS, os autores acreditam que pode ser aplicado como referência para ajudar pesquisadores.
 
@@ -28,7 +28,7 @@ Tanto os datasets como maiores informações sobre o NLS-KDD, estão no site do 
 
 [1] - M. Tavallaee, E. Bagheri, W. Lu, and A. Ghorbani, “A Detailed Analysis of the KDD CUP 99 Data Set,” Submitted to Second IEEE Symposium on Computational Intelligence for Security and Defense Applications (CISDA), 2009.
 
-## Modelos de classificação binária e multiclasse utilizados no projeto:
+### Modelos de classificação binária:
 
 - Gradient Boosting Classifier (GBC)
 - Linear Support Vector Machine Classifier (LSVM)
@@ -36,3 +36,31 @@ Tanto os datasets como maiores informações sobre o NLS-KDD, estão no site do 
 - Gaussian Naive Bayes Classifier (GNB)
 - Logistic Regression Classifier (LR)
 - Random Forest Classifier (RF)
+- Multi Layer Perceptron Classifier (MLP)
+
+### Modelos de classificação multiclasse:
+
+- Linear Support Vector Machine Classifier (LSVM)
+- K-Nearest Neighbors Classifier (KNN)
+- Logistic Regression Classifier (LR)
+
+### Cross Validation (Classificação binária):
+
+Na validação cruzada foi utilizado o K-Fold e o Stratified ShuffleSplit. As acurácias foram:
+
+Modelos avaliados:
+> GradientBoostingClassifier: Acurácia: 0.9784
+> LinearSVC: Acurácia: 0.9667
+> KNeighborsClassifier: Acurácia: 0.9857
+> GaussianNB: Acurácia: 0.8421
+> LogisticRegression: Acurácia: 0.9687
+> RandomForestClassifier: Acurácia: 0.8965
+> MLPClassifier: Acurácia: 0.9836
+Validação cruzada dos modelos:
+> GradientBoostingClassifier: stratified shufflesplit = 0.9782, kfold = 0.9782
+> LinearSVC: stratified shufflesplit = 0.9675, kfold = 0.9675
+> KNeighborsClassifier: stratified shufflesplit = 0.9860, kfold = 0.9860
+> GaussianNB: stratified shufflesplit = 0.8439, kfold = 0.8439
+> LogisticRegression: stratified shufflesplit = 0.9696, kfold = 0.9696
+> RandomForestClassifier: stratified shufflesplit = 0.9871, kfold = 0.9871
+> MLPClassifier: stratified shufflesplit = 0.9842, kfold = 0.9841
